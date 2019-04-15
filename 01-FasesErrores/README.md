@@ -54,8 +54,8 @@ hello3.c:4:5: warning: implicit declaration of function 'prontf'; did you mean '
 hello3.c:4:5: error: expected declaration or statement at end of input
 ```
 ___
-> . Corregir en el nuevo archivo `hello4.c` y empezar de nuevo, generar `hello4.s`, no ensamblar.
-> 
+> Corregir en el nuevo archivo `hello4.c` y empezar de nuevo, generar `hello4.s`, no ensamblar.
+
 Se corrige `prontf` por `printf` y se cierra el `{`.
 
 El archivo `hello4.c` queda
