@@ -13,7 +13,7 @@ ___
 ```
 > Pre procesar `hello2.c`, no compilar, y generar `hello2.i`. Analizar su contenido. 
 
-se ejecuta el comando `gcc hello2.c -E -o hello2.i` y el archivo resultante `hello2.i` tiene simplemente
+Se ejecuta el comando `gcc hello2.c -E -o hello2.i` y el archivo resultante `hello2.i` tiene simplemente
 copiado el contenido de *stdio* donde estaba la linea `include`, hay aproximadamente 500 lineas nuevas.
 
 El comentario `/*DENUVO REMUVO*/` fué reemplazado por un espacio, evidenciado por la separación resultante entre `int` y `main(void){`.
